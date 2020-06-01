@@ -12,7 +12,7 @@ else if(array_key_exists('stopStress', $_POST)){
     stopStress();
 }
 function startStress(){
-    `stress --cpu 2`;
+    `stress --cpu 4`;
 }
 function stopStress(){
     `pkill stress`;
