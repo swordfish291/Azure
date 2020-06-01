@@ -1,4 +1,6 @@
 <html>
+<img src="logo.png">
+<br>
 <?php
     $hostName = `hostname`;
     echo "Instace Name: " . $hostName;
